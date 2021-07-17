@@ -4,4 +4,4 @@ This application has build-in weather effects helping the users to feel the outs
 Feel free to contribute,improvements are always welcome.
 You can also use this source code for your mini college projects.
 Happy coding :)
-For installation apk go inside WeatherApk file > clic on Download button >app-debug.apk 
+For installation apk go inside <App_Name>Apk file > clic on Download button >app-debug.apk 
