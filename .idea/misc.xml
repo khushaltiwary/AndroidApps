@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BrainBooster2/app/src/main/res/font/.xml" value="0.2212962962962963" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/font/almendra_bold_italic.xml" value="0.1359375" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/font/annie_use_your_telescope.xml" value="0.1359375" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/activity_game.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/activity_gk_qact.xml" value="0.6" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/activity_gsign.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/activity_result.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/activity_selection.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/gk_item.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-large/item.xml" value="0.6" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-normal/activity_game.xml" value="0.24427083333333333" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-normal/activity_gk_qact.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-normal/activity_gsign.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-normal/gk_item.xml" value="0.1165489404641776" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-normal/item.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/activity_game.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/activity_gk_qact.xml" value="1.0" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/activity_gsign.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/activity_result.xml" value="0.1165489404641776" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/activity_selection.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/gk_item.xml" value="0.1165489404641776" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-small/item.xml" value="0.240625" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/activity_game.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/activity_gk_qact.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/activity_gsign.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/activity_result.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/activity_selection.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/gk_item.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout-xlarge/item.xml" value="0.18046875" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_fragment_gk.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_fragment_maths.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_game.xml" value="0.176" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_gk_qact.xml" value="0.264" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_gsign.xml" value="0.1165489404641776" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_main.xml" value="0.24427083333333333" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_result.xml" value="0.264" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/activity_selection.xml" value="0.1165489404641776" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/fragment_gk.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/fragment_maths.xml" value="0.1" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/gk_item.xml" value="0.264" />
+        <entry key="..\:/BrainBooster2/app/src/main/res/layout/item.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

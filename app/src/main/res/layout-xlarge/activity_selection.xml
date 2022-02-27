@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionAct"
+    android:background="@drawable/background_gradient">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="45dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="45dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="16dp" />
+
+    <ImageView
+        android:id="@+id/imgVMaths"
+        android:layout_width="324dp"
+        android:layout_height="339dp"
+        android:layout_marginTop="68dp"
+        android:adjustViewBounds="true"
+        android:background="#7FF7F5F5"
+        app:circularflow_defaultRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textVTitleSelectionAct"
+        app:srcCompat="@drawable/math" />
+
+    <ImageView
+        android:id="@+id/imgVGK"
+        android:layout_width="362dp"
+        android:layout_height="336dp"
+        android:layout_marginTop="68dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textVTitleSelectionAct"
+        app:srcCompat="@drawable/gk" />
+
+    <TextView
+        android:id="@+id/textVTitleSelectionAct"
+        android:layout_width="813dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="88dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/SelectionActTitle"
+        android:textColor="#9C27B0"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/userIdTxtVSelectionAct" />
+
+    <ImageView
+        android:id="@+id/imgVPlaySelectionAct"
+        android:layout_width="622dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="52dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGrpMultiNDiv"
+        app:srcCompat="@drawable/ic_baseline_double_arrow_24" />
+
+    <TextView
+        android:id="@+id/userIdTxtVSelectionAct"
+        android:layout_width="635dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:gravity="fill"
+        android:textColor="#010101"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <RadioGroup
+        android:id="@+id/radioGrpAddNSubsAct"
+        android:layout_width="835dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="44dp"
+        android:checkedButton="@id/AddRadioButton1"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/imgVMaths">
+
+        <RadioButton
+            android:id="@+id/AddRadioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:autoSizeTextType="uniform"
+            android:tag="1"
+            android:text="Addition" />
+
+        <RadioButton
+            android:id="@+id/subsRadioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:autoSizeTextType="uniform"
+            android:tag="2"
+            android:text="Substraction" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGrpMultiNDiv"
+        android:layout_width="835dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGrpAddNSubsAct"
+        app:layout_constraintVertical_bias="0.07999998">
+
+        <RadioButton
+            android:id="@+id/MultiradioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:tag="3"
+            android:text="Multiply" />
+
+        <RadioButton
+            android:id="@+id/DivradioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:tag="4"
+            android:text="Division" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imagePlayVGk"
+        android:layout_width="539dp"
+        android:layout_height="284dp"
+        android:layout_marginTop="76dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/imgVGK"
+        app:srcCompat="@drawable/ic_baseline_double_arrow_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "141910970477",
+    "project_id": "brainbooster2",
+    "storage_bucket": "brainbooster2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141910970477:android:c17913cf67ceae7e74af64",
+        "android_client_info": {
+          "package_name": "com.example.brainbooster2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141910970477-750d0ui8dmd307hlttkb18cs4l877rtk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brainbooster2",
+            "certificate_hash": "7475b3e7fd0f21846881197f4845e19552030564"
+          }
+        },
+        {
+          "client_id": "141910970477-pn523ovh6nb6dke03d70umg6acckeitn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ_KMLHO_lkkDM2fdDCWlR3k72LKQ33gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141910970477-pn523ovh6nb6dke03d70umg6acckeitn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

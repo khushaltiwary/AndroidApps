@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameActConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameAct"
+    android:background="@drawable/background_gradient">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="45dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="45dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="16dp" />
+
+    <TextView
+        android:id="@+id/qTxtVGKAct"
+        android:layout_width="872dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="76dp"
+        android:autoSizeTextType="uniform"
+        android:background="#9B09EB76"
+        android:textAlignment="center"
+        android:textColor="#090808"
+        app:circularflow_radiusInDP="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGkAct"
+        android:layout_width="865dp"
+        android:layout_height="254dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/qTxtVGKAct">
+
+        <TextView
+            android:id="@+id/timeTxtVGKAct"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:background="#C9F50606"
+            android:maxLines="1"
+            android:textColor="#0D0C0C" />
+
+        <TextView
+            android:id="@+id/scoreTxtVGkAct"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:background="#C6FFC107"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/ScoreTxtViewDefaultValue"
+            android:textColor="#0B0A0A" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="216dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutGkAct" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGrpGkAct"
+        android:layout_width="872dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.288">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip0"
+            android:layout_width="match_parent"
+            android:layout_height="127.5dp"
+            android:onClick="choseAnswer"
+            android:tag="0"
+            android:textColor="#0D0C0C" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip1"
+            android:layout_width="match_parent"
+            android:layout_height="127.5dp"
+            android:onClick="choseAnswer"
+            android:tag="1" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip2"
+            android:layout_width="match_parent"
+            android:layout_height="127.5dp"
+            android:onClick="choseAnswer"
+            android:tag="2" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip3"
+            android:layout_width="match_parent"
+            android:layout_height="127.5dp"
+            android:onClick="choseAnswer"
+            android:tag="3" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <ImageView
+        android:id="@+id/gameOverTimeImgV"
+        android:layout_width="728dp"
+        android:layout_height="616dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/kill_time" />
+
+    <TextView
+        android:id="@+id/gameOverTextV"
+        android:layout_width="703dp"
+        android:layout_height="170dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#060505"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <TextView
+        android:id="@+id/txtV2"
+        android:layout_width="738dp"
+        android:layout_height="174dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:textColor="#060606"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/universalScoreResultTxtV"
+        android:layout_width="535dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="64dp"
+        android:autoSizeTextType="uniform"
+        android:background="#82EDE6E6"
+        android:gravity="fill"
+        android:text="@string/universalScoreResultTxtV"
+        android:textColor="#0639F5"
+        android:textColorHint="#050FF9"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameOverTextV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

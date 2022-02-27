@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BrainBooster2</string>
+    <string name="SelectionActTitle">Choose From Below and Press Start</string>
+    <string name="ScoreTxtViewDefaultValue">0/0</string>
+    <string name="universalScoreResultTxtV">View Global Score</string>
+    <string name="tabItem1">Maths</string>
+    <string name="tabItem2">General Knowledge</string>
+    <string name="welcomeTVGsignAct">Enter Details To Continue</string>
+    <string name="userNameTVGsignAct">Enter Username</string>
+    <string name="userPassHintTVGsignAct">Enter Password</string>
+    <string name="loginBtnTVGsignAct">Login</string>
+    <string name="schoolTvGsign">Enter School Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
